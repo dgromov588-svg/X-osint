@@ -2,7 +2,7 @@
 
 import signal
 import tempfile
-from googlesearch import search # type: ignore
+from googlesearch import Search # type: ignore
 from smtplib import SMTP, SMTPRecipientsRefused, SMTPSenderRefused, SMTPResponseException
 from email.mime.multipart import MIMEMultipart
 import re
